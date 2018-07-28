@@ -20,7 +20,7 @@ function renderWithDelimitersToString(text)
 }	
 ```
 # Usage
-=
+
 ```js
 var result= renderWithDelimitersToString("this is an equation $$ y=x^{-2} $$ ");
 ```
