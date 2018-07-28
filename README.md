@@ -5,7 +5,8 @@ in katex RenderToString
  - \\( Math  \\)
 
  - $$ Math  $$
-# Usage
+# Install
+add this function to your project
 ```js
 function renderWithDelimitersToString(text)
 {
@@ -17,4 +18,9 @@ function renderWithDelimitersToString(text)
         return m;
    });
 }	
+```
+# Usage
+=
+```js
+var result= renderWithDelimitersToString("this is an equation $$ y=x^{-2} $$ ");
 ```
