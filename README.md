@@ -2,7 +2,7 @@
 Allow rendering of mixed String that contains Math Expressions and other text
 in katex RenderToString
 # Support
- - \( Math  \)
+ - \\( Math  \\)
 
  - $$ Math  $$
 # Usage
