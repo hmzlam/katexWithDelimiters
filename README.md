@@ -8,7 +8,7 @@ in katex RenderToString
 # Install
 add katexDel.js to your project
 ```html
-  <script src="katexDel.js" ></script>
+  <script src="katexDel.js" />
 ```
 # Usage
 
