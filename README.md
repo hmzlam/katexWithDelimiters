@@ -6,18 +6,9 @@ in katex RenderToString
 
  - $$ Math  $$
 # Install
-add this function to your project
-```js
-function renderWithDelimitersToString(text)
-{
-   var CleanAndRender=function(str){return katex.renderToString(str.replace(/\\\(|\$\$|\\\)/g,""));}	
-   return text.replace(/(\\\([^]*?\\\))|(\$\$[^]*?\$\$)/g, function(m, bracket, dollar) {
-        if (bracket !== undefined) return CleanAndRender(m);
-        if (dollar !== undefined) 
-        return "<p style='width:100%;text-align:center;'>" + CleanAndRender(m) + "</p>";
-        return m;
-   });
-}	
+add katexDel.js to your project
+```html
+  <script src="katexDel.js" ></script>
 ```
 # Usage
 
